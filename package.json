@@ -1,0 +1,12 @@
+{
+  "name": "Integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Louis3133/Int-gration-2025.git",
+  "author": "Louis Le Doussal <louis.le-doussal@mmibordeaux.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "5.3.8",
+    "gsap": "^3.13.0"
+  }
+}
