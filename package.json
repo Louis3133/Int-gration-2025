@@ -6,7 +6,12 @@
   "author": "Louis Le Doussal <louis.le-doussal@mmibordeaux.com>",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "5.3.8",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
     "gsap": "^3.13.0"
+  },
+  "devDependencies": {
+    "sass": "^1.92.1",
+    "vite": "^7.1.5"
   }
 }
