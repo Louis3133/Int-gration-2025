@@ -1,0 +1,59 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  border-radius: 32px 32px 0 0;
+  background: #FFF;
+  box-shadow: 0 8px 36.5px 27px rgba(255, 255, 255, 0.25);
+  padding: 86px;
+  justify-content: space-between;
+
+  h3 {
+    text-decoration: underline;
+  }
+
+  a {
+    transition: ease-in-out .5s;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+
+.footer-logo {
+  margin-top: auto;
+}
+
+.content-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a,
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.credits-section,
+.faces-section,
+.navigation-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.credits-section {
+  .credits-content {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+  }
+}
