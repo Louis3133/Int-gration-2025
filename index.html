@@ -9,8 +9,45 @@
   <script type="module" src="/src/main.js" defer></script>
 
 </head>
-<header class="header">
+<header class="container header">
+  <div class="content">
+    <a class="logo" aria-label="Page d'accueil" href="https://golf-hippodrome.staging2.kaizen-developments.com">
 
+    </a>
+    <div class="buttons"><button id="menu-button" class="btn btn-primary btn-menu collapsed" type="button"
+        data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
+        Menu
+      </button>
+    </div>
+  </div>
+  <div class="dropdown-menu collapse" id="collapseMenu">
+    <div class="dropdown-content">
+      <nav>
+        <ul id="menu-navigation-principale" class="header-links">
+          <li
+            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-213">
+            <a href="#introduction"
+              aria-current="page">Introduction</a></li>
+          <li
+            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-212">
+            <a href="#saint-seurin" aria-current="page">Saint Seurin</a>
+          </li>
+          <li
+            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-211">
+            <a href="#montesquieu"
+              aria-current="page">Montesquieu</a></li>
+          <li
+            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-210">
+            <a href="#tarifs" aria-current="page">Al Pouessi</a>
+          </li>
+          <li
+            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-209">
+            <a href="#heinz-salmide" aria-current="page">Heinz Salmide</a>
+          </li>
+        </ul>
+      </nav>
+  </div>
+  <div class="menu-backdrop"></div>
 </header>
 
 <div class="hero">
