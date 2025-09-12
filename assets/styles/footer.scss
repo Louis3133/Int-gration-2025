@@ -57,3 +57,11 @@
     gap: 64px;
   }
 }
+
+.planet {
+  max-height: 110px;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}

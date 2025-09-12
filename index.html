@@ -15,18 +15,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
 </head>
-<header class="container header">
-  <div class="content">
-    <a class="logo" aria-label="Page d'accueil" href="https://golf-hippodrome.staging2.kaizen-developments.com">
 
-    </a>
-    <div class="buttons"><button id="menu-button" class="btn btn-primary btn-menu collapsed" type="button"
-        data-bs-toggle="collapse" data-bs-target="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
+
+<header class="container header">
+  <div class="content header__promotion">
+    <a href=""></a>
+
+    <div class="buttons"><button id="menu-button" class="btn  btn-menu collapsed" type="button"
+        data-bs-toggle="collapse" data-bs-target="#collapsenavbar" aria-expanded="false" aria-controls="collapsenavbar">
         Menu
       </button>
     </div>
   </div>
-  <div class="dropdown-menu collapse" id="collapseMenu">
+  <div class="test collapse" id="collapsenavbar">
     <div class="dropdown-content">
       <nav>
         <ul id="menu-navigation-principale" class="header-links">
@@ -46,6 +47,11 @@
             class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-210">
             <a href="#tarifs" aria-current="page">Al Pouessi</a>
           </li>
+           <li
+            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-210">
+            <a href="#jacques-ellul" aria-current="page">Jacques Ellul</a>
+          </li>
+
           <li
             class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-209">
             <a href="#heinz-salmide" aria-current="page">Heinz Salmide</a>
@@ -53,14 +59,13 @@
         </ul>
       </nav>
   </div>
-  <div class="menu-backdrop"></div>
 </header>
 
 <div class="hero">
 
   <div class="title-section">
     <h1>Bordeaux Visages</h1>
-    <img class="faces-image" src="/assets/img/visages.svg" alt="Logo MMI">
+    <img class="faces-image" src="/assets/img/faces.svg" alt="Logo MMI">
   </div>
 
   <div class="introduction">
@@ -97,9 +102,29 @@
   <!-- Saint Seurin -->
 
   <section id="saint-seurin" class="saint-seurin-section">
+  <div class="saint-seurin-content">
+    <img src="/assets/img/saint-seurin.svg" alt="">
+    <div class="pres-saint-seurin">
+      <p class="title-saint-seurin">Saint Seurin</p>
+      <p>IVe – Ve siècle.</p>
+    </div>
+  </div>
 
-  </section>
-
+  <div class="parchemin-wrapper">
+    <div class="parchemin">
+      <div class="parchemin-top">
+        <p>
+          Ego sum episcopus... Pardon, il est vrai que de vos jours le latin n’existe plus, je disais donc que je suis le premier évêque de Bordeaux, je suis certainement l’un des plus ancien témoin de l'histoire de cette cité, j’ai notamment été considéré comme le saint patron de la ville, pas mal n’est-ce pas ?
+          <br><br>
+          Mon influence est toujours visible à votre époque, je suis en partie à l’origine de l’évangélisation de la région bordelaise, j’ai renforcé dans le temps l’identité chrétienne de la cité, qui me fête chaque année. De nombreuses institutions religieuses portent mon nom comme l’église Saint Seurin, bref, même si peu de gens savent exactement qui je suis, la vie bordelaise, elle, reste influencée par mes actions.
+        </p>
+      </div>
+      <div class="parchemin-bottom">
+        <img src="/assets/img/parchemin-bottom.svg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
 
 
   <!-- Montesquieu -->
@@ -151,7 +176,23 @@ Je suis malheuresment mort en 1755, et pourtant je reste un symbole des Lumière
   <!-- Jacques Ellul -->
 
   <section id="jacques-ellul" class="jacques-ellul-section">
-
+    <div>
+      <img src="/assets/img/montesquieu 1.svg" alt="">
+      <div class="pres-jacques">
+        <p class="title-jacques">Jacques Ellul</p>
+        <p>6 janvier 1912 - 19 mai 1994</p>
+      </div>
+    </div>
+    <div class="machine-complete">
+      <div class="paper">
+        Historien, sociologue et théologien, c’est une partie des casquettes que j’ai occupé tout au long de ma vie. On a du mal à me classer, je suis un personnage dit “atypique” ou “original”, je me considère moi-même assez proche d’une des formes de l’anarchisme. J’ai très tôt été inspiré par Karl Marx, mais également par le christianisme, un mélange assez étonnant, mais que je considère comme deux parties, à la fois distinctes et se répondant dialectiquement.
+        <br><br>
+Mais si on me connaît aujourd’hui, surtout en Aquitaine, c’est pour mes prises de position sur la société technicienne. J’analyse le progrès technique non pas comme un simple outil au service de l’homme, mais comme une force autonome, qui transforme en profondeur nos sociétés, nos comportements, nos valeurs. À travers mes écrits, j’ai voulu alerter mes contemporains sur cette dérive, sur le fait que la technique ne connaît ni morale ni limites, et qu’il est urgent de repenser notre rapport à elle.
+        <br><br>
+      </div>
+      <img class="machine-top" src="/assets/img/machine-top.svg" alt="">
+      <img class="machine" src="/assets/img/machine.svg" alt="">
+    </div>
   </section>
 
 
@@ -163,14 +204,31 @@ Je suis malheuresment mort en 1755, et pourtant je reste un symbole des Lumière
   </section>
 
 
+  <h2 class="video-title">En voir plus</h2>
 
-  <!-- Étudiante de nos jours -->
+  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/CwLlBtHZxEI?si=Ft4NWQP25AEPYb5x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-  <section id="student" class="student-section">
+  <div class="conclusion">
+    <div class="quote-open">
+      <img src="/assets/img/quote-open.svg" alt="">
+    </div>
+    <div class="conclu-content">
+      Et tandis que quittant Darwin, dans l’ancienne Caserne Niel, puis ayant emprunté le pont Chaban-Delmas, tu te laisses à ton tour captiver par le Miroir d’eau face à la place de la Bourse, tu devines que des milliers, des dizaines de milliers d’autres visages viendront sûrement te visiter, car l’on ne referme jamais un registre que l’on a ouvert de cette manière.
+      <br><br>
+      Et pendant qu’au détour d’une brochure, tu découvres que Bordeaux est jumelée avec une vingtaine de cités, Porto, Wuhan, Québec… chacune mettant en dialogue tant d’autres destins, tu te laisses surprendre par un dernier visage qu’il t’appartient si tu le souhaites, d’y adjoindre… : le tien…
+    </div>
+    <div class="quote-close"> <img src="/assets/img/quote-close.svg" alt="">
+    </div>
+  </div>
 
-  </section>
+
 
 </body>
+
+<div class="planet">
+  <img class="globe" src="/assets/img/planette.svg" alt="globe">
+</div>
+
 <footer class="footer">
     <div class="footer-logo">
       <img src="/assets/img/logo_mmi.svg" alt="Logo MMI">

@@ -1,0 +1,57 @@
+.pres-jacques {
+  align-items: left;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto Slab';
+}
+
+.jacques-ellul-section {
+  display: flex;
+  flex-direction: row;
+  max-width: 950px;
+  margin-inline: auto;
+  justify-content: space-between;
+  margin-bottom: 128px;
+}
+
+.title-jacques {
+  font-size: 32px;
+  margin-bottom: 2px;
+}
+
+.machine {
+  width: 555px;
+  height: 400px;
+  z-index: 4;
+}
+
+.machine-top {
+  width: 555px;
+  height: auto;
+  z-index: 2;
+}
+
+.machine-complete {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.paper {
+  background-image: url(/assets/img/papier-bien.svg);
+  background-size: cover;
+  background-position: top left;
+  font-family: 'Quintessential';
+  font-size: 14px;
+  padding: 10px;
+  width: 290px;
+  position: absolute;
+  right: 130px;
+  bottom: 100px;
+  z-index: 3;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding-bottom: 300px;
+}

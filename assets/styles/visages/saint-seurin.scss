@@ -1,0 +1,54 @@
+.saint-seurin-section {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 950px;
+  margin: 0 auto;
+  gap: 40px;
+  min-height: 100vh;
+}
+
+.saint-seurin-content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Quintessential';
+  max-width: 400px;
+}
+
+.title-saint-seurin {
+  font-size: 32px;
+  margin-bottom: 2px;
+}
+
+
+.parchemin-wrapper {
+  width: 500px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.parchemin {
+  width: 100%;
+  background-image: url(/assets/img/parchemin.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: black;
+  font-size: 12px;
+  font-family: 'Quintessential';
+  display: flex;
+  flex-direction: column;
+}
+
+.parchemin-top p {
+  padding-top: 92px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.parchemin-bottom img {
+  width: 100%;
+  display: block;
+}
