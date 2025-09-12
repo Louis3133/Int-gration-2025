@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // .Map1 {
 //     position: absolute;
 //     left: 30%;
@@ -17,3 +18,53 @@
 //     height: auto;
 //     z-index: 2;
 // }
+=======
+.montesquieu-section{
+    color: white;
+    font-family: 'courgette';
+}
+
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.montesquieu-section .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.montesquieu-section .illustration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.montesquieu-section .portrait{
+    width: 70%;
+    height: 23%;
+}
+
+.montesquieu-section .text-section{
+    position: relative;
+}
+
+.montesquieu-section .text-section img{
+    position: relative;
+    width: 90%;
+}
+
+.montesquieu-section .text-section p{
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    color: black;
+    width: 70%;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+>>>>>>> Stashed changes
