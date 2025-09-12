@@ -46,26 +46,6 @@ p {
   overflow: hidden;
 }
 
-/* Le backdrop est invisible par défaut */
-#backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5); /* Sombre avec transparence */
-  z-index: 1000;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-/* Quand actif */
-#backdrop.active {
-  opacity: 1;
-  pointer-events: all;
-}
-
 /* Empêche le scroll */
 .no-scroll {
   overflow: hidden;
