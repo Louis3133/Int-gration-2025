@@ -1,6 +1,12 @@
 .heinz-salmide-section{
     color: white;
     font-family: 'Playball';
+    display: flex;
+    flex-direction: row;
+    max-width: 980px;
+    margin-inline: auto;
+    justify-content: space-between;
+    margin-bottom: 64px;
 }
 
 .playball-regular {
@@ -22,8 +28,8 @@
 }
 
 .heinz-salmide-section .portrait{
-    width: 80%;
-    height: 23%;
+    width: 220px;
+    height: 250px;
 }
 
 .heinz-salmide-section .text-section{
@@ -31,17 +37,13 @@
 }
 
 .heinz-salmide-section .text-section img{
-    width: 75%;
+    width: 500px;
     position: relative;
     transform: rotate(90deg);
     filter: brightness(200%);
     filter: grayscale(30%);
-    
-}
+    margin-right: 140px;
 
-.heinz-salmide-section .illustration p,
-.heinz-salmide-section .text-section p{
-    font-size: 1.2rem;
 }
 
 .heinz-salmide-section .text-section p{
@@ -49,8 +51,8 @@
     top: 24%;
     left: 2%;
     color: black;
-    width: 70%;
+    width: 75%;
     font-weight: 600;
     letter-spacing: 1px;
+    font-size: 14px;
 }
-
