@@ -1,9 +1,33 @@
 .hero {
   text-align: center;
   color: white;
-  background-color: rgb(27, 27, 27);
-  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: radial-gradient(122.18% 85.22% at 48.19% 50%, #000 0%, #800020 100%);
+  padding-top: 164px;
+  padding-bottom: 148px;
+}
+
+.title-section {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+
+  h1 {
+    z-index: 3;
+    position: relative;
+  }
+}
+
+.faces-image {
+  position: absolute;
+  top: 48px;
+  z-index: 2;
+  right: 60px;
+  left: 0;
+  margin-inline: auto;
 }

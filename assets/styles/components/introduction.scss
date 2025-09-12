@@ -1,0 +1,22 @@
+  .introduction {
+    text-align: left;
+    max-width: 870px;
+    margin-inline: auto;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .intro-content {
+    padding-block: 64px;
+  }
+
+  .quote-close {
+    margin-top: auto;
+  }

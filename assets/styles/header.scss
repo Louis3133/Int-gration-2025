@@ -7,35 +7,23 @@
     position: fixed;
     top: 32px;
     left: 0;
-    right: 0
+    right: 0;
+    transition: translate 0.3s ease-in-out;
+
+    .btn {
+      width: 100%;
+      height: 100%;
+    }
 }
 
 .header .btn-contact {
-    display: none
+    display: none;
 }
 
 @media (min-width: 48em) {
     .header .btn-contact {
-        display:flex
+        display: flex;
     }
-}
-
-.header .menu-backdrop {
-    opacity: 0;
-    pointer-events: none;
-    z-index: 9;
-    background-color: rgba(0,0,0,.32);
-    transition: opacity .3s;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0
-}
-
-.header .collapsing+.menu-backdrop,.header .collapse.show+.menu-backdrop {
-    opacity: 1;
-    pointer-events: auto
 }
 
 .header .close-icon,.header .btn-menu[aria-expanded=true] .menu-icon {
@@ -46,7 +34,7 @@
     display: block
 }
 
-.header .dropdown-menu {
+.header .test {
     color: #fff;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -54,7 +42,7 @@
     background-color: #8c071c;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 16px;
+    border-radius: 18px;
     width: 100%;
     max-width: 500px;
     margin-left: auto;
@@ -65,19 +53,19 @@
 }
 
 @media (max-width: 47.99em) {
-    .header .dropdown-menu {
+    .header .test {
         max-height:72vh
     }
 }
 
 @media (min-width: 62em) {
-    .header .dropdown-menu {
+    .header .test {
         max-height:85vh;
         top: 92px;
     }
 }
 
-.header .dropdown-menu::-webkit-scrollbar {
+.header .test::-webkit-scrollbar {
     display: none
 }
 
@@ -195,12 +183,13 @@
     font-weight: 700;
 }
 
+
 .header .content {
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     z-index: 10;
     background-color: rgba(255,255,255,.6);
-    border-radius: 16px;
+    border-radius: 18px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -211,7 +200,10 @@
     margin-right: auto;
     padding-left: 16px;
     display: flex;
-    position: relative
+    position: relative;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.40);
+    max-width: 350px;
 }
 
 @media (min-width: 62em) {
@@ -249,13 +241,18 @@
 .header .content .buttons {
     width: -moz-fit-content;
     height: 100%;
-    background-color: #8c071c;
+    border-radius: 10px;
+    border: 1px solid #999;
+    background: rgba(255, 255, 255, 0.27);
+    height: 70%;
+    width: auto;
     border-radius: 16px;
     flex-direction: row;
     gap: 8px;
     width: fit-content;
-    padding: 8px;
-    display: flex
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 62em) {
