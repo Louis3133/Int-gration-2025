@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
 h1 {
   font-size: 3rem;
   z-index: 3;
+  color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #4B352A;
+  font-family: Grenze;
+  font-size: 112px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 h2 {
@@ -23,7 +35,12 @@ p {
   z-index: 3;
 }
 
-body {
+.separation-svg {
+  width: 100%;
+  margin-top: -60px;
+}
+
+.body {
   background-color: black;
 }
 
@@ -35,4 +52,15 @@ body {
   z-index: 3;
   margin-right: 40%;
   margin-bottom: 3%;
+.body-title {
+  text-align: center;
+  color: #FFF;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #4B352A;
+  font-family: Grenze;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 128px;
 }
