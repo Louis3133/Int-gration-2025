@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bordeaux Visages - Groupe 6</title>
-
   <script type="module" src="/src/main.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,6 +30,7 @@
     <div class="buttons"><button id="menu-button" class="btn  btn-menu collapsed" type="button"
         data-bs-toggle="collapse" data-bs-target="#collapsenavbar" aria-expanded="false" aria-controls="collapsenavbar">
         Menu
+        <img src="/assets/img/burger.svg" alt="">
       </button>
     </div>
   </div>
@@ -52,7 +52,7 @@
               aria-current="page">Montesquieu</a></li>
           <li
             class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-210">
-            <a href="#tarifs" aria-current="page">Al Pouessi</a>
+            <a href="#al-pouessi" aria-current="page">Al Pouessi</a>
           </li>
            <li
             class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-210">
@@ -66,6 +66,7 @@
         </ul>
       </nav>
   </div>
+<div id="backdrop"></div>
 </header>
 
 <div class="hero">
@@ -75,7 +76,7 @@
     <img class="faces-image" src="/assets/img/faces.svg" alt="Logo MMI">
   </div>
 
-  <div class="introduction">
+  <div id="introduction" class="introduction">
     <div class="quote-open">
       <img src="/assets/img/quote-open.svg" alt="">
     </div>
